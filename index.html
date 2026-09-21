@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<title>Para Amy 💗</title>
+<meta name="description" content="Un universo en forma de corazón para Amy." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="start-screen">
+  <div class="pulse-text">Presioname</div>
+  <div class="start-heart" aria-hidden="true">❤️</div>
+</div>
+
+<div id="top-title">Eres mi universo, Amy 💗</div>
+
+<button id="love-letter-btn" aria-label="Leer mensaje">💌</button>
+<button id="sound-toggle" aria-label="Silenciar música">🔊</button>
+
+<div id="love-letter-overlay">
+  <div id="love-letter-card">
+    <button id="love-letter-close" aria-label="Cerrar mensaje">✕</button>
+    <h2>Para ti, Amy ❤️</h2>
+    <!--
+      Personaliza aquí tu propio mensaje para Amy.
+      Reemplaza los párrafos de ejemplo por lo que realmente quieras decirle.
+    -->
+    <p class="signoff">Amy,</p>
+    <p>
+      Hay personas que llegan a nuestra vida y pasan sin dejar huella, pero tú llegaste de una forma distinta. 
+      Poco a poco te convertiste en alguien imprescindible para mí. 
+      No fue solo por los momentos bonitos o por las palabras dulces, sino porque, incluso sin darte cuenta, lograste hacer que muchos de mis días fueran mejores. 
+      Desde que apareciste, descubrí que el cariño puede sentirse en los pequeños detalles, en una conversación cualquiera, en una risa compartida o en el simple hecho de saber que estás ahí.
+    </p>
+    <p>
+      No sé qué nos depare el futuro, pero sí sé que, mientras caminemos juntos, quiero seguir construyendo recuerdos, apoyarte en tus metas, celebrar tus logros y abrazarte cuando sientas que todo pesa demasiado. 
+      Eres alguien muy importante para mí y deseo, de corazón, que nunca olvides cuánto vales y cuánto significas para mí.
+    </p>
+    <p>
+      Quiero que sepas que te admiro por quien eres. 
+      Con tus virtudes, tus defectos, tus días buenos y los que no lo son tanto. Nadie es perfecto, y precisamente eso hace que el amor tenga sentido: elegir quedarse incluso cuando las cosas no son fáciles. 
+      Gracias por cada recuerdo que hemos creado, por cada momento en el que me has hecho sonreír y por permitirme formar parte de tu vida.
+    </p>
+    <p class="signoff">Con todo mi cariño.</p>
+  </div>
+</div>
+
+<canvas id="c"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/three@0.148.0/build/three.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
